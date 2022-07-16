@@ -90,7 +90,7 @@ E no arquvio HTML:
 ### Como chamar a função
 * O parâmetro The `string` se refere à saída em formato de String do arquivo CSV lido. 
 * O parâmetro `separator` se refere ao separador usado no CSV (vírgula, ponto-e-vírgula etc) 
-* O parâmetro `hasExtraSpaces` se refere a um valor booleanoque irá determinar se a função deve ou não realizar o TRIM() nas chaves e valores (remover espaços extras antes e depois)   
+* O parâmetro `hasExtraSpaces` se refere a um valor booleano que irá determinar se a função deve ou não realizar o TRIM() nas chaves e valores (remover espaços extras antes e depois)   
 * O parâmetro `fileName` se refe a uma string qualquer que o usuário deseje usar. Essa string será usada para dar nome à chave que guardará o Array contendo os objetos transformados do arquivo CSV
 Observe a declaração da função
 ```
